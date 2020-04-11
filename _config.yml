@@ -253,7 +253,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           href: /tags/
         - title: '<i class="fas fa-archive fa-fw"></i> 归档'
           href: /archive/
-        - title: '<i class="fa fa-music"></i> 音乐🎵'
+        - title: '<i class="fa fa-music"></i> 我的apple music歌单🎵'
           href: https://music.apple.com/cn/playlist/pl.u-gxblkMGF5JMP9A2?l=cn
         - title: '<i class="fas fa-coffee fa-fw"></i> 打赏'
           href: /merger/
@@ -621,7 +621,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           hash: true,
           mouseWheel: true,
           navigationMode: 'linear',
-          parallaxBackgroundImage: 'data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoBAAEAD8D+JaQAA3AA/uVqAAA=',//这是一张纯白图
+          parallaxBackgroundImage: 'https://tva1.sinaimg.cn/large/007S8ZIlly1gdq14y7o0vj31cs0o0jry.jpg',//这是一张纯白图
           dependencies: [
               { src: path+'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
               { src: path+'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
