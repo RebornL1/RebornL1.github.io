@@ -253,6 +253,8 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           href: /tags/
         - title: '<i class="fas fa-archive fa-fw"></i> 归档'
           href: /archive/
+        - title: '<i class="fa fa-music"></i> 音乐🎵'
+          href: https://music.apple.com/cn/playlist/pl.u-gxblkMGF5JMP9A2?l=cn
         - title: '<i class="fas fa-coffee fa-fw"></i> 打赏'
           href: /merger/
       simple_jekyll_search: # 侧边栏的全站搜索
