@@ -3,21 +3,15 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   沉迷学习无法自拔<br/>
   永远喜欢石原里美<br/>
   hackintosh垃圾佬<br/>
-  #<a href="mailto:i@wu-kan.cn">
-    #<i class="fas fa-envelope"></i>
-  #</a>
+  <a href="mailto:L_0_0@iCloud.com">
+    <i class="fas fa-envelope"></i>
+  </a>
   <a href="https://github.com/RebornL1">
     <i class="fab fa-github"></i>
   </a>
-  #<a href="https://codeforces.com/profile/WuK">
-    #<i class="fas fa-chart-bar"></i>
-  #</a>
   <a href="https://space.bilibili.com/14024434">
     <i class="fa fa-bold"></i>
   </a>
-  #<a href="https://www.zhihu.com/people/wu.kan/activities">
-    #<i class="fab fa-zhihu"></i>
-  #</a>
   <iframe
     src="https://music.163.com/outchain/player?type=2&id=426502173&auto=1&height=32"
     width=100%
