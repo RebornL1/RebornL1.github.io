@@ -1,8 +1,8 @@
-title: wu-kan # 站点标题
+title: BWL # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
-  SYSU超算17级在读<br/>
-  永远喜欢水野爱<br/>
-  田宫例四驱车<br/>
+  沉迷学习无法自拔<br/>
+  永远喜欢石原里美<br/>
+  hackintosh垃圾佬<br/>
   ASC<br/>
   <a href="mailto:i@wu-kan.cn">
     <i class="fas fa-envelope"></i>
@@ -20,7 +20,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     <i class="fab fa-zhihu"></i>
   </a>
   <iframe
-    src="https://music.163.com/outchain/player?type=0&id=155059595&auto=0&height=32"
+    src="https://music.163.com/outchain/player?type=2&id=426502173&auto=1&height=66"
     width=100%
     height=52
     frameborder="no"
