@@ -3,22 +3,21 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   沉迷学习无法自拔<br/>
   永远喜欢石原里美<br/>
   hackintosh垃圾佬<br/>
-  ASC<br/>
-  <a href="mailto:i@wu-kan.cn">
-    <i class="fas fa-envelope"></i>
-  </a>
-  <a href="https://github.com/wu-kan">
+  #<a href="mailto:i@wu-kan.cn">
+    #<i class="fas fa-envelope"></i>
+  #</a>
+  <a href="https://github.com/RebornL1">
     <i class="fab fa-github"></i>
   </a>
-  <a href="https://codeforces.com/profile/WuK">
-    <i class="fas fa-chart-bar"></i>
+  #<a href="https://codeforces.com/profile/WuK">
+    #<i class="fas fa-chart-bar"></i>
+  #</a>
+  <a href="https://space.bilibili.com/14024434">
+    <i class="fa fa-bold"></i>
   </a>
-  <a href="https://vjudge.net/user/WuK">
-    <i class="fas fa-smile"></i>
-  </a>
-  <a href="https://www.zhihu.com/people/wu.kan/activities">
-    <i class="fab fa-zhihu"></i>
-  </a>
+  #<a href="https://www.zhihu.com/people/wu.kan/activities">
+    #<i class="fab fa-zhihu"></i>
+  #</a>
   <iframe
     src="https://music.163.com/outchain/player?type=2&id=426502173&auto=1&height=32"
     width=100%
@@ -28,7 +27,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     marginwidth="0"
     marginheight="0"
   ></iframe>
-url: https://wu-kan.github.io # 你的域名，例如https://wu-kan.github.io
+url: https://RebornL1.github.io # 你的域名，例如https://wu-kan.github.io
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
 jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
@@ -36,7 +35,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
     body:
       theme-base: theme-base-07 # 可选的值08~0f，见<https://github.com/poole/lanyon>
       layout-reverse: false # 开启后sidebar在右边，反之左边
-      sidebar-overlay: false # 开启后正文不随sidebar移动而移动
+      sidebar-overlay: true # 开启后正文不随sidebar移动而移动
     append_to_head: # 通过内嵌html的方式引入并定制插件，删改前确定知道自己在做什么。定制插件的方式可以参考这篇文章</_posts/2019-01-18-基于Jekyll搭建个人博客/>
       - | #一些页面优化标签，看不懂可跳过
         <meta
@@ -170,11 +169,11 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
             background-position: center top;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-image: url(https://Mizuno-Ai.wu-kan.cn/pixiv/74559485_p1.webp);
+            background-image: url(https://tva1.sinaimg.cn/large/007S8ZIlly1gdpq7ssru5j31zo0u07wi.jpg);
           }
           @media (min-aspect-ratio: 2400/1850) {
             .wrap {
-              background-image: url(https://Mizuno-Ai.wu-kan.cn/pixiv/71932901_p0.webp);
+              background-image: url(https://tva1.sinaimg.cn/large/007S8ZIlly1gdpq7ssru5j31zo0u07wi.jpg);
             }
           }
         </style>
@@ -250,7 +249,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
       disable: false # 是否不显示sidebar
       avatar: # 侧边栏显示的头像
         enable: true
-        img: https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320 # 头像的地址
+        img: https://tva1.sinaimg.cn/large/007S8ZIlly1gdpq9vzegdj306a0640u4.jpg # 头像的地址
       nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
         - title: '<i class="fas fa-home fa-fw"></i> 首页'
           href: /
@@ -380,25 +379,25 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
               async='async'
             ></script>
           </div>
-        - | # 觉得我的主题好用的话，让更多的人知道它吧！
-          <div>
-            <i class="fas fa-thumbs-up fa-fw"></i>
-            <a href="https://jekyll-theme-WuK.wu-kan.cn">
-              jekyll-theme-WuK
-            </a>
-          </div>
-        - | # Copyright声明
-          <div>
-            <i class="fas fa-copyright fa-fw"></i>
-            2017-2020 WuK
-          </div>
-        - | # 备案信息，请你用自己的或是删掉
-          <div>
-            <i class="fas fa-info-circle fa-fw"></i>
-            <a href="http://beian.miit.gov.cn">
-              粤 ICP 备 20024947 号
-            </a>
-          </div>
+        #- | # 觉得我的主题好用的话，让更多的人知道它吧！
+          #<div>
+            #<i class="fas fa-thumbs-up fa-fw"></i>
+            #<a href="https://jekyll-theme-WuK.wu-kan.cn">
+              #jekyll-theme-WuK
+            #</a>
+          #</div>
+        #- | # Copyright声明
+          #<div>
+            #<i class="fas fa-copyright fa-fw"></i>
+            #2017-2020 WuK
+          #</div>
+        #- | # 备案信息，请你用自己的或是删掉
+          #<div>
+            #<i class="fas fa-info-circle fa-fw"></i>
+            #<a href="http://beian.miit.gov.cn">
+              #粤 ICP 备 20024947 号
+            #</a>
+          #</div>
       wordcount: # 全站字数统计
         enable: false # 本地调试时建议关闭，非常影响站点生成速度（所需时间与博文数量的平方成正比）
         alert: <i class="fas fa-user-edit fa-fw"></i>
@@ -431,7 +430,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
             padding-top: 1rem;
             padding-bottom: 1rem;
             box-shadow: 0 0 .75rem rgba(0, 0, 0, 0.1);
-            background-color: rgba(255, 255, 255, 0.9);
+            background-color: rgba(200, 200, 200, 0.8);
             animation: animationAppear 2s;
           }
           @keyframes animationAppear {
@@ -511,8 +510,8 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         onload='
           new Valine({
             "el": ".v",
-            "appId": "9hABRddSuEkTgqLrt1VSK5B1-gzGzoHsz",
-            "appKey": "NJ7RwmgrxsF7KDzlqU7YewlL",
+            "appId": "FVAGU598K6yFfaIvEqM3WsG7-gzGzoHsz",
+            "appKey": "s2jJg4FcHJmWyNU1956tfBJF",
             "notify": "true",
             "verify": "true",
             "avatar": "identicon",
@@ -557,46 +556,46 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
     posts_count:
       enable: true # 博文数量统计
       alert: 篇博文。长路漫漫！ # 提示语
-  merger: # 打赏页，需要配置！
-    append_to_head:
-      - | # 需要配置的变量见<https://merger.justhx.com/cn/docs/configure>
-        <script>
-          var usage = "payment";
-          var wechat = "wxp://f2f0BhUoIC_9gex7-tC2PRvVuoA486mK5WyC";
-          var tenpay = "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQ77zFwQMY-6u57gU%3D_xxx_sign&u=942759535&n=%E8%94%9A";
-          var alipay = "https://qr.alipay.com/fkx02750b5kbplxvudqrx16";
-          var paypal = "https://paypal.me/wukan0621";
-          var myname = "WuK";
-          var profile = "https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320";
-          var multilingual = true;
-          var myname_hans = "吴坎";
-          var myname_hant = "吴坎";
-          var myname_eng = "WuK";
-          var title = "选择你的支付方式";
-          var subtitle = "跟随进一步的指示以向" + myname + "付款";
-          var qrcodeapi = "https://www.zhihu.com/qrcode?url=";
-        </script>
-      - |
-        <meta
-          charset="utf-8"
-        />
-        <meta
-          name="viewport"
-          content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-        />
-        <meta
-          http-equiv="Content-Security-Policy"
-          content="upgrade-insecure-requests"
-        />
-      - | # merger的页面样式
-        <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.21.1/assets/styles/spectre.css/spectre-modified.min.css,gh/hifocus/merger@0.21.1/assets/styles/style.min.css"
-        />
-        <script
-          src='https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.21.1/assets/js/jQuery/jquery.min.js,gh/hifocus/merger@0.21.1/assets/js/jquery-qrcode/jquery-qrcode.min.js,gh/hifocus/merger@0.21.1/assets/js/JavaScript_MD5/md5.min.js,gh/hifocus/merger@0.21.1/assets/js/function.min.js,gh/hifocus/merger@0.21.1/assets/js/font_974919_xgtacm93vxp.min.js'
-          defer='defer'
-        ></script>
+  #merger: # 打赏页，需要配置！
+    #append_to_head:
+      #- | # 需要配置的变量见<https://merger.justhx.com/cn/docs/configure>
+        #<script>
+          #var usage = "payment";
+          #var wechat = "wxp://f2f0BhUoIC_9gex7-tC2PRvVuoA486mK5WyC";
+          #var tenpay = "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQ77zFwQMY-6u57gU%3D_xxx_sign&u=942759535&n=%E8%94%9A";
+          #var alipay = "https://qr.alipay.com/fkx02750b5kbplxvudqrx16";
+          #var paypal = "https://paypal.me/wukan0621";
+          #var myname = "WuK";
+          #var profile = "https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320";
+          #var multilingual = true;
+          #var myname_hans = "吴坎";
+          #var myname_hant = "吴坎";
+          #var myname_eng = "WuK";
+          #var title = "选择你的支付方式";
+          #var subtitle = "跟随进一步的指示以向" + myname + "付款";
+          #var qrcodeapi = "https://www.zhihu.com/qrcode?url=";
+        #</script>
+      #- |
+        #<meta
+          #charset="utf-8"
+        #/>
+        #<meta
+          #name="viewport"
+          #content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        #/>
+        #<meta
+          #http-equiv="Content-Security-Policy"
+          #content="upgrade-insecure-requests"
+        #/>
+      #- | # merger的页面样式
+        #<link
+          #rel="stylesheet"
+          #href="https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.21.1/assets/styles/spectre.css/spectre-modified.min.css,gh/hifocus/merger@0.21.1/assets/styles/style.min.css"
+        #/>
+        #<script
+          #src='https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.21.1/assets/js/jQuery/jquery.min.js,gh/hifocus/merger@0.21.1/assets/js/jquery-qrcode/jquery-qrcode.min.js,gh/hifocus/merger@0.21.1/assets/js/JavaScript_MD5/md5.min.js,gh/hifocus/merger@0.21.1/assets/js/function.min.js,gh/hifocus/merger@0.21.1/assets/js/font_974919_xgtacm93vxp.min.js'
+          #defer='defer'
+        #></script>
   home: # 用于生成ppt的模板，看不懂的话可以不用配置
     append_to_section_tag:
       - key: data-markdown
