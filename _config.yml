@@ -558,11 +558,15 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           var wechat = "wxp://f2f0i7Q-CqFVbFTrKwzolsOhkhnuK9EOWA2C";
           var tenpay = "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&a=1&u=1477875164&ac=CAEQ3KvawAUY2vnF9AU%3D_xxx_sign&n=%E8%8A%B1%E3%81%9F%E3%82%93&f=wallet";
           var alipay = "HTTPS://QR.ALIPAY.COM/FKX07337OOLCXYPVAWWJFE";
+          #var paypal = "https://paypal.me/wukan0621";
+          var myname = "BWL";
+          var profile = "https://tva1.sinaimg.cn/large/007S8ZIlly1gdpq9vzegdj306a0640u4.jpg";
           var multilingual = true;
           var myname_hans = "李博闻";
           var myname_hant = "李博闻";
           var title = "选择你的支付方式";
           var subtitle = "跟随进一步的指示以向" + myname + "付款";
+          var qrcodeapi = "https://www.zhihu.com/qrcode?url=";
         </script>
       - |
         <meta
