@@ -31,7 +31,8 @@
 
 - **C/C++**, Familiar&Learning
 - **Java**, Familiar
-- **Swift**, Familiar- **Python**, Familiar
+- **Swift**, Familiar
+- **Python**, Familiar
 
 <!-- slide vertical=true -->
 
