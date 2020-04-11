@@ -239,7 +239,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
             margin: 0;
           }
           .reveal a {
-             color: #83a;
+             color: #83a !important;
           }
         </style>
     sidebar: # 此配置项下是一些关于侧边栏的配置
