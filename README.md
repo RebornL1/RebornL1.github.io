@@ -11,27 +11,24 @@
 <!-- slide vertical=true -->
 
 - E-mail:
-  - **[L_0_0](mailto:L_0_0@icloud.com)**
+  - **<0;33;23m<0;33;17m<65;39;15M<65;33;17M[<65;33;17M[L_0_0](mailto:L_0_0@icloud.com)**
   - **[stu.email](mailto:libowen@stu.xidian.edu.cn)**
 - WeChat: **abc585854121**
 - QQ: **1477875164**
 
 <!-- slide -->
-
 ## 我的一些视频
 
 
-- [B站](https://space.bilibili.com/14024434)
+- <65;33;17M[B站](https://space.bilibili.com/14024434)
   - 我在某多多买的150元的2T移动硬盘[是假的](https://www.bilibili.com/video/BV1FE411p7oS/)
-
 <!-- slide -->
 ## 我的一些技能
 
 
 - **C/C++**, Familiar&Learning
 - **Java**, Familiar
-- **Swift**, Familiar
-- **Python**, Familiar
+- **Swift**, Familiar- **Python**, Familiar
 
 <!-- slide vertical=true -->
 
@@ -45,3 +42,10 @@
 ### 无用的技能
 - **Hackintosh**, Familiar
 - **Final Cut Pro X**, Familiar&Learning 
+
+
+
+<!-- slide -->
+## 一些博客内容
+- **[玩转Swift](_posts/2020-04-11-玩转swift)** 
+- **[当我们讨论算法的时候，我们在讨论什么？](_posts/2020-04-11-01-当我们讨论算法的时候,我们在讨论什么) ** 
