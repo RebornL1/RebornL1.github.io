@@ -1,6 +1,6 @@
--—-
+—
 sidebar_open: true
----
+—
 
 # 花火のRain
 
