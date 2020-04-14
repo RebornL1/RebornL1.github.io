@@ -61,21 +61,6 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/combine/gh/poole/lanyon@v1.1.0/public/css/poole.min.css,gh/poole/lanyon@v1.1.0/public/css/lanyon.min.css"
         />
-      - | #对于lanyon侧边栏按钮的一些补丁，Hide the sidebar checkbox that we toggle with `.sidebar-toggle`；建议不要改
-        <style>
-          .sidebar-checkbox {
-            display: none;
-          }
-          .sidebar-toggle {
-            position: fixed;
-          }
-          .sidebar-toggle:before,
-          .sidebar-toggle:active:before,
-          #sidebar-checkbox:focus~.sidebar-toggle:before,
-          #sidebar-checkbox:checked~.sidebar-toggle:before {
-            background-image: none;
-          }
-        </style>
       - | # 引入fontawesome图标样式
         <link
           rel="stylesheet"
@@ -405,25 +390,6 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
               async='async'
             ></script>
           </div>
-        #- | # 觉得我的主题好用的话，让更多的人知道它吧！
-          #<div>
-            #<i class="fas fa-thumbs-up fa-fw"></i>
-            #<a href="https://jekyll-theme-WuK.wu-kan.cn">
-              #jekyll-theme-WuK
-            #</a>
-          #</div>
-        #- | # Copyright声明
-          #<div>
-            #<i class="fas fa-copyright fa-fw"></i>
-            #2017-2020 WuK
-          #</div>
-        #- | # 备案信息，请你用自己的或是删掉
-          #<div>
-            #<i class="fas fa-info-circle fa-fw"></i>
-            #<a href="http://beian.miit.gov.cn">
-              #粤 ICP 备 20024947 号
-            #</a>
-          #</div>
       wordcount: # 全站字数统计
         enable: false # 本地调试时建议关闭，非常影响站点生成速度（所需时间与博文数量的平方成正比）
         alert: <i class="fas fa-user-edit fa-fw"></i>
