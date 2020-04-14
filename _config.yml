@@ -466,7 +466,8 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         <script
           src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"
           defer="defer"
-          onload='
+          onload=
+            '
             for(let x=document.getElementsByClassName("language-mermaid"), i=0;i<x.length;i++)
             {
               x[i].classList.add("mermaid");
@@ -481,7 +482,8 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         <script
           src="https://cdn.jsdelivr.net/combine/npm/prismjs/components/prism-core.min.js,npm/prismjs/plugins/autoloader/prism-autoloader.min.js,npm/prismjs/plugins/line-numbers/prism-line-numbers.min.js,npm/prismjs/plugins/toolbar/prism-toolbar.min.js"
           defer="defer"
-          onload='
+          onload=
+            '
             Prism.plugins.autoloader.languages_path = "https:\/\/cdn.jsdelivr.net/npm/prismjs/components/";
             for(let x=document.getElementsByTagName("pre"), i=0;i<x.length;i++)
             {
@@ -624,7 +626,8 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
       <script
         defer="defer"
         src="https://cdn.jsdelivr.net/npm/reveal.js/js/reveal.min.js"
-        onload="
+        onload=
+        "
         document.getElementsByClassName('wrap')[0].classList.add('reveal');
         let path = 'https:\/\/cdn.jsdelivr.net/npm/reveal.js/';
         Reveal.initialize({
@@ -678,8 +681,8 @@ permalink: /_posts/:year-:month-:day-:title/ #生成文章的地址格式，我�
 markdown: kramdown
 kramdown: # 见<https://kramdown.gettalong.org/options.html>
   input: GFM # 见<http://jekyllcn.com/docs/configuration/#kramdown>
-  syntax_highlighter_opts: # 可见<https://kramdown.gettalong.org/syntax_highlighter/rouge.html>
-    disable: true # 关掉默认的高亮，换用prismjs
+  #syntax_highlighter_opts: # 可见<https://kramdown.gettalong.org/syntax_highlighter/rouge.html>
+    #disable: true # 关掉默认的高亮，换用prismjs
 
 # 以下为 githubpage上不可修改的参数，见<https://help.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll>
 #lsi: false # 为相关文章生成索引
