@@ -552,11 +552,9 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
   merger: # 打赏页，需要配置！
     append_to_head:
       - | # 需要配置的变量见<https://merger.justhx.com/cn/docs/configure> # 不需要QQ支付var tenpay = "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&a=1&u=1477875164&ac=CAEQ3KvawAUY2vnF9AU%3D_xxx_sign&n=%E8%8A%B1%E3%81%9F%E3%82%93&f=wallet";
-      
         <script>
           var usage = "donate";
           var wechat = "wxp://f2f0i7Q-CqFVbFTrKwzolsOhkhnuK9EOWA2C";
-          
           var alipay = "HTTPS://QR.ALIPAY.COM/FKX07337OOLCXYPVAWWJFE";
           var paypal = "";
           var myname = "BWL";
